@@ -8,33 +8,33 @@
   </head>
 
   <body>
-    <header id="index-header" class="header">
+    <header id="header" class="header">
       <div class="container">
         <div class="navbar-section">
           <!-- Навігаційна панель -->
-          <nav class="navbar">
-            <ul class="navbar-list">
+          <nav id="navbar" class="navbar">
+            <ul class="navbar-list" id="navbar-list">
               <li> <a class="navbar-link" href="index.html">Головна сторінка</a></li>
               <li> <a class="navbar-link" href="./htmls/obsidian.html">Obsidian</a></li>
               <li> <a class="navbar-link" href="./htmls/google-calendar.html">Google Календар</a></li>
               <li> <a class="navbar-link" href="./htmls/todoist.html">Todoist</a></li>
               <li> <a class="navbar-link" href="./htmls/endel.html">Endel</a></li>
               <li> <a class="navbar-link" href="./htmls/eat-the-frog.html">EatTheFrog</a></li>
-              <li> <a id="index-navbar-login-link" class="navbar-login-link" href="./htmls/login.html">Log in</a></li>              
+              <li> <a class="navbar-login-link" href="./htmls/login.html">Log in</a></li>              
             </ul>
           </nav>
         </div>
-        <main class="main-section">
+        <main id="main-section">
 
           <div class="main-container">
-            <h1 class="main-header">Прокрастинація</h1>
-            <div class="main-text">
+            <div id="main-text">
+              <h1 class="main-header">Прокрастинація</h1>
               <p>Я є холериком, тобто хоч і маю певну амбіційність та цілеспрямованість - також маю великі проблеми з прокрастинацією та дефіцитом уваги. Це відчутно заважає мені навчатись та і в цілому в житті.</p>
               <p>Отож все моє навчання в університеті я шукав вирішення цієї проблеми, і деякі результати маю.</p>
               <p>Оскільки я маю такий предмет як "Основи веб дизайну" - маю можливість зробити сайт саме з цієї теми. Донести свої знання, і можливо цей сайт-стаття допоможе комусь побороти <b>прокрастинацію</b>.</p>
               <p>Отже ось таблиця з певними інструментами, які мені допомогли. Надалі про кожний я розповім окремо на кожній сторінці.</p>
 
-              <table class="main-table">
+              <table id="main-table">
 
                 <thead>
                   <tr>
@@ -78,10 +78,11 @@
 
         </main>
       </div>
-      <footer id="index-footer" class="footer index-page">
+      <footer id="footer" class="footer index-page">
+        <button class="change-theme-button" onclick="changeSiteTheme()" onmouseover="setHoverEffect()" onmouseout="noHoverEffect()" id="change-theme-button" data-theme="light" ></button>
       </footer>
     </header>
 
-    <script src="../js/scrypt.js"></script>
+    <script src="js/scrypt.js"></script>
   </body>
 </html>

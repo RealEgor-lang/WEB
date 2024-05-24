@@ -9,7 +9,7 @@
   font-style: normal;
 }
 
-.header {
+#header {
   min-height: 100%;
   background-color: #f2f2f2;
   background-size: 100% 25%;
@@ -55,7 +55,7 @@
   justify-content: end;
 }
 
-.main-section {
+#main-section {
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -102,19 +102,20 @@
   margin: 25px 50px 25px 0;
 }
 
-.main-text {
+#main-text {
   font-size: 30px;
 }
 
-.main-text p{
+#main-text p{
   margin-bottom: 50px;
 }
 
-.main-table {
+#main-table {
   border: 3px #737373 solid;
   margin: 100px;
+  margin-bottom: 200px;
 }
-.main-table th,td{
+#main-table th,td{
   border: 2px #a6a6a6 solid;
   padding: 20px;
 }
@@ -160,15 +161,13 @@
 
 .navbar {
   border: 3.5px black solid;
-  background-color: #fff;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   margin-top: 300px;
 }
 
-.navbar-hr {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 2px;
+#navbar {
+  background-color: #fff;
 }
 
 .navbar-list li {
@@ -215,9 +214,20 @@
   background-color:  #f2f2f2;
 }
 
-.footer {
+#footer {
   bottom: 0px;
   width: 100%;
   height: 200px;
   background-image: linear-gradient(#8FBDBB, #1E497C);
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+
+#change-theme-button {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 2px black solid;
+  border-top-left-radius: 50px;
 }
