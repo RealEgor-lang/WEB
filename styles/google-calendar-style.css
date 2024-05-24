@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Caveat";
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.header {
+  min-height: 100%;
+  background-color: #f2f2f2;
+  background-size: 100% 25%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#AA3525, #EFC088, #f2f2f2);
+}
+
+.login-button {
+  height: 50px;
+  width: 100px;
+  background-image: linear-gradient(#AA88EF, #5125aa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  border: 30px, black, solid;
+  border-radius: 20px;
+}
+
+.login-button:hover {
+  background-image: none;
+  background-color: #fff;
+  color: black;
+}
+
+.login-link:hover {
+  color: #208dc7;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1280px;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.navbar-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.main-section {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px lightgray solid;
+  border-top: none;
+  border-bottom: none;
+}
+
+.googlecalendar-image {
+  width: 1080px;
+}
+
+.main-container {
+  width: 1080px;
+}
+
+.main-header {
+  font-size: 48px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-preview-image {
+  width: 1000px;
+  border: 40px #d9d9d9 solid;
+  margin-top: 100px;
+}
+
+.ukr-obisidan-video {
+  display: flex;
+  justify-content: right;
+  float: right;
+  margin: 25px 0 25px 50px;
+}
+
+.rus-obsidian-video {
+  display: flex;
+  justify-content: left;
+  float: left;
+  margin: 25px 50px 25px 0;
+}
+
+.main-text {
+  font-size: 30px;
+}
+
+.main-text p{
+  margin-bottom: 50px;
+}
+
+.main-table {
+  border: 3px #737373 solid;
+  margin: 100px;
+}
+.main-table th,td{
+  border: 2px #a6a6a6 solid;
+  padding: 20px;
+}
+
+.login-form {
+  min-width: 300px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin: 100px;
+  border: 2px gray solid;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.form-login-input {
+  font-family: sans-serif;
+  border: 3.5px black solid;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.form-login-submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2.5px black solid;
+  border-radius: 5px;
+  padding: 0px 10px 0px 10px;
+  background-color: #fff;
+}
+
+.form-login-submit-button:hover {
+  background-color: #208dc7;
+}
+
+.navbar {
+  border: 3.5px black solid;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 300px;
+}
+
+.navbar-hr {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2px;
+}
+
+.navbar-list li {
+  list-style: none;
+}
+
+.navbar-list li a {
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.navbar-link {
+  color: black;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+  color: #208dc7;
+}
+
+.navbar-list {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+.navbar-login-link {
+  border: 2px white solid;
+  padding: 10px;
+  background-image: linear-gradient(#EFC088, #AA3525);
+  color: #fff;
+  border-radius: 10px;
+}
+
+.navbar-login-link:hover {
+  border: 2px black solid;
+  background-image: none;
+  background-color: #fff;
+  color: black;
+  background-color:  #f2f2f2;
+}
+
+.footer {
+  bottom: 0px;
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(#EFC088, #AA3525);
+}
